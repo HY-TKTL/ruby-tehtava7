@@ -1,6 +1,6 @@
 require './koodi.rb'
 
-RSpec.describe 'metodi puuttuva' do
+RSpec.describe 'metodi keskiarvo' do
   it "palauttaa taulukosta puuttuvan luvun" do
     method_taking_array_exists(self, :keskiarvo, [1, 3])
 
