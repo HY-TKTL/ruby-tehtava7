@@ -5,6 +5,7 @@ def keskiarvo(taulukko)
 	return tulos/pituus
 end
 
+
 taulukko = [1,2]
 tulos = keskiarvo(taulukko)
 puts tulos
